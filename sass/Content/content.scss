@@ -1,0 +1,17 @@
+#main-container {
+    width: $maxWidth;
+    height: $maxHeight;
+    position: absolute;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+    width: (($maxWidth / 3) - ($mainMargin * 4));
+    height: (($maxHeight / 2) - ($mainMargin * 4));
+    margin: $mainMargin;
+    position: relative;
+    float: left;
+    border: 1px solid black;
+}

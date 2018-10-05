@@ -1,3 +1,17 @@
+#main-container {
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0; }
 
+.block {
+  width: 392px;
+  height: 292px;
+  margin: 2px;
+  position: relative;
+  float: left;
+  border: 1px solid black; }
 
 /*# sourceMappingURL=style.css.map */
