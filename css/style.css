@@ -4,21 +4,9 @@
   position: absolute;
   border: 1px solid black;
   background-color: #a2798f;
-  padding: 0;
-  margin: 0;
   border-radius: 0px;
   animation: colorChangeMainBlock 3s infinite; }
 
-@keyframes colorChangeMainBlock {
-  0% {
-    border-radius: 0px;
-    background-color: #a2798f; }
-  50% {
-    border-radius: 70px;
-    background-color: #00a0b0; }
-  100% {
-    border-radius: 0px;
-    background-color: #a2798f; } }
 .block {
   width: 392px;
   height: 292px;
@@ -28,6 +16,13 @@
   border: 1px solid black;
   border-radius: 0px; }
 
+.blockContent {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-size: 2em;
+  animation: resizeFont 3s infinite; }
+
 .colorBlock-1 {
   background-color: #edc951;
   animation: colorChangeBlock1 3s infinite; }
@@ -36,14 +31,34 @@
   background-color: #00a0b0;
   animation: colorChangeBlock2 3s infinite; }
 
+@keyframes colorChangeMainBlock {
+  0% {
+    width: 1200px;
+    height: 600px;
+    border-radius: 0px;
+    background-color: #a2798f; }
+  50% {
+    width: 600px;
+    height: 300px;
+    border-radius: 70px;
+    background-color: #00a0b0; }
+  100% {
+    width: 1200px;
+    height: 600px;
+    border-radius: 0px;
+    background-color: #a2798f; } }
 @keyframes colorChangeBlock1 {
   0% {
+    width: 392px;
     background-color: #edc951;
     border-radius: 0px; }
   50% {
+    width: 192px;
+    height: 142px;
     background-color: #eb6841;
     border-radius: 70px; }
   100% {
+    width: 392px;
     background-color: #edc951;
     border-radius: 0px; } }
 @keyframes colorChangeBlock2 {
@@ -51,10 +66,19 @@
     background-color: #00a0b0;
     border-radius: 0px; }
   50% {
+    width: 192px;
+    height: 142px;
     background-color: #4f372d;
     border-radius: 70px; }
   100% {
     background-color: #00a0b0;
     border-radius: 0px; } }
+@keyframes resizeFont {
+  0% {
+    font-size: 2em; }
+  50% {
+    font-size: 1em; }
+  100% {
+    font-size: 2em; } }
 
 /*# sourceMappingURL=style.css.map */
