@@ -1,43 +1,38 @@
-body {
-  overflow: hidden; }
-
 #main-container {
   width: 1200px;
   height: 600px;
   position: absolute;
   border: 1px solid black;
   background-color: #a2798f;
-  border-radius: 0px;
-  margin: auto;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  animation: colorChangeMainBlock 3s infinite; }
+  border-radius: 0px; }
 
 .block {
-  width: 392px;
-  height: 292px;
-  margin: 2px;
+  height: 160px;
+  margin: 10px;
   position: relative;
   float: left;
   border: 1px solid black;
   border-radius: 0px; }
 
+.firstRow div {
+  width: 50%;
+  float: left; }
+
 .blockContent {
   position: relative;
   top: 50%;
   left: 50%;
-  font-size: 2em;
-  animation: resizeFont 3s infinite; }
+  font-size: 2em; }
 
 .colorBlock-1 {
-  background-color: #edc951;
-  animation: colorChangeBlock1 3s infinite; }
+  background-color: #edc951; }
 
 .colorBlock-2 {
-  background-color: #00a0b0;
-  animation: colorChangeBlock2 3s infinite; }
+  background-color: #00a0b0; }
+
+.clearFix:after {
+  clear: both;
+  content: " "; }
 
 @keyframes colorChangeMainBlock {
   0% {
@@ -57,16 +52,16 @@ body {
     background-color: #a2798f; } }
 @keyframes colorChangeBlock1 {
   0% {
-    width: 392px;
+    width: 360px;
     background-color: #edc951;
     border-radius: 0px; }
   50% {
-    width: 192px;
-    height: 142px;
+    width: 160px;
+    height: 110px;
     background-color: #eb6841;
     border-radius: 70px; }
   100% {
-    width: 392px;
+    width: 360px;
     background-color: #edc951;
     border-radius: 0px; } }
 @keyframes colorChangeBlock2 {
@@ -74,8 +69,8 @@ body {
     background-color: #00a0b0;
     border-radius: 0px; }
   50% {
-    width: 192px;
-    height: 142px;
+    width: 160px;
+    height: 110px;
     background-color: #4f372d;
     border-radius: 70px; }
   100% {

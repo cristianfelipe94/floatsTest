@@ -1,7 +1,3 @@
-body {
-    overflow: hidden;
-}
-
 #main-container {
     width: $maxWidth;
     height: $maxHeight;
@@ -9,17 +5,11 @@ body {
     border: 1px solid black;
     background-color:#a2798f; 
     border-radius: 0px;
-    margin: auto;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    animation: colorChangeMainBlock 3s infinite;
+    //animation: colorChangeMainBlock 3s infinite;
 }
 
 .block {
-    width: (($maxWidth / 3) - ($mainMargin * 4));
-    height: (($maxHeight / 2) - ($mainMargin * 4));
+    height: (($maxHeight / 3) - ($mainMargin * 4));
     margin: $mainMargin;
     position: relative;
     float: left;
@@ -27,20 +17,30 @@ body {
     border-radius: 0px;
 }
 
+.firstRow div {
+    width: 50%;
+    float: left;
+}
+
 .blockContent {
     position: relative;
     top: 50%;
     left: 50%;
     font-size: $fontSize;
-    animation: resizeFont 3s infinite;
+    //animation: resizeFont 3s infinite;
 }
 
 .colorBlock-1 {
     background-color:#edc951;
-    animation: colorChangeBlock1 3s infinite;
+    //animation: colorChangeBlock1 3s infinite;
 }
 
 .colorBlock-2 {
     background-color:#00a0b0;
-    animation: colorChangeBlock2 3s infinite;
+    //animation: colorChangeBlock2 3s infinite;
+}
+
+.clearFix:after{
+    clear: both;
+    content: " ";
 }
