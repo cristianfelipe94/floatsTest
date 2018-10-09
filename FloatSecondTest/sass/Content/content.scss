@@ -4,6 +4,13 @@
     display: block;
 }
 
+body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: 	black;
+}
+
 #main-container {
     width: $maxWidth;
     height: $maxHeight;
@@ -11,7 +18,12 @@
     border: 1px solid black;
     background-color:#a2798f; 
     border-radius: 0px;
-    //animation: colorChangeMainBlock 3s infinite;
+    animation: colorChangeMainBlock 3s infinite;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .block {
@@ -26,12 +38,25 @@
 .firstRow div {
     width: 48%;
     float: left;
+    animation: colorChangeBlock1 3s infinite;
 }
 
-.secondRow:first-child {
-    width: 20%;
+.secondRow div:first-child{
+    width: 23%;
     float: left;
-    width: 50px
+    animation: colorChangeBlock2 3s infinite;
+}
+
+.secondRow div:nth-child(2){
+    width: 73%;
+    float: left;
+    animation: colorChangeBlock3 3s infinite;
+}
+
+.thirdRow div:first-child{
+    width: 98%;
+    float: left;
+    animation: colorChangeBlock4 3s infinite;
 }
 
 .blockContent {
@@ -39,15 +64,13 @@
     top: 50%;
     left: 50%;
     font-size: $fontSize;
-    //animation: resizeFont 3s infinite;
+    animation: resizeFont 3s infinite;
 }
 
 .colorBlock-1 {
     background-color:#edc951;
-    //animation: colorChangeBlock1 3s infinite;
 }
 
 .colorBlock-2 {
     background-color:#00a0b0;
-    //animation: colorChangeBlock2 3s infinite;
 }
