@@ -1,3 +1,8 @@
+.clearFix::after {
+  clear: both;
+  content: "";
+  display: block; }
+
 #main-container {
   width: 1200px;
   height: 600px;
@@ -15,8 +20,13 @@
   border-radius: 0px; }
 
 .firstRow div {
-  width: 50%;
+  width: 48%;
   float: left; }
+
+.secondRow:first-child {
+  width: 20%;
+  float: left;
+  width: 50px; }
 
 .blockContent {
   position: relative;
@@ -29,10 +39,6 @@
 
 .colorBlock-2 {
   background-color: #00a0b0; }
-
-.clearFix:after {
-  clear: both;
-  content: " "; }
 
 @keyframes colorChangeMainBlock {
   0% {

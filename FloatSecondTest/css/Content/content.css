@@ -1,17 +1,21 @@
 /*
 Error: Undefined variable: "$maxWidth".
-        on line 2 of sass/Content/content.scss
+        on line 8 of sass/Content/content.scss
 
-1: #main-container {
-2:     width: $maxWidth;
-3:     height: $maxHeight;
-4:     position: absolute;
-5:     border: 1px solid black;
-6:     background-color:#a2798f; 
-7:     border-radius: 0px;
+3:     content: "";
+4:     display: block;
+5: }
+6: 
+7: #main-container {
+8:     width: $maxWidth;
+9:     height: $maxHeight;
+10:     position: absolute;
+11:     border: 1px solid black;
+12:     background-color:#a2798f; 
+13:     border-radius: 0px;
 
 Backtrace:
-sass/Content/content.scss:2
+sass/Content/content.scss:8
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -63,4 +67,4 @@ sass/Content/content.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$maxWidth\".\A         on line 2 of sass/Content/content.scss\A \A 1: #main-container {\A 2:     width: $maxWidth;\A 3:     height: $maxHeight;\A 4:     position: absolute;\A 5:     border: 1px solid black;\A 6:     background-color:#a2798f; \A 7:     border-radius: 0px;"; }
+  content: "Error: Undefined variable: \"$maxWidth\".\A         on line 8 of sass/Content/content.scss\A \A 3:     content: \"\";\A 4:     display: block;\A 5: }\A 6: \A 7: #main-container {\A 8:     width: $maxWidth;\A 9:     height: $maxHeight;\A 10:     position: absolute;\A 11:     border: 1px solid black;\A 12:     background-color:#a2798f; \A 13:     border-radius: 0px;"; }

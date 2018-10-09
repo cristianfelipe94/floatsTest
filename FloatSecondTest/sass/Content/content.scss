@@ -1,3 +1,9 @@
+.clearFix::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
 #main-container {
     width: $maxWidth;
     height: $maxHeight;
@@ -18,8 +24,14 @@
 }
 
 .firstRow div {
-    width: 50%;
+    width: 48%;
     float: left;
+}
+
+.secondRow:first-child {
+    width: 20%;
+    float: left;
+    width: 50px
 }
 
 .blockContent {
@@ -38,9 +50,4 @@
 .colorBlock-2 {
     background-color:#00a0b0;
     //animation: colorChangeBlock2 3s infinite;
-}
-
-.clearFix:after{
-    clear: both;
-    content: " ";
 }
