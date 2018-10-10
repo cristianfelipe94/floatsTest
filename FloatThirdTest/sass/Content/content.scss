@@ -18,7 +18,7 @@ body {
     border: 1px solid black;
     background-color:#a2798f; 
     border-radius: 0px;
-    //animation: colorChangeMainBlock 3s infinite;
+    animation: colorChangeMainBlock 3s infinite;
     margin: auto;
     right: 0;
     top: 0;
@@ -40,19 +40,19 @@ body {
 .firstRow div:first-child {
     width: 48%;
     float: left;
-    //animation: colorChangeBlock1 3s infinite;
+    animation: colorChangeBlock15 3s infinite;
 }
 
 .firstRow div:nth-child(2){
     width: 23%;
     float: left;
-    //animation: colorChangeBlock1 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .firstRow div:nth-child(3){
     width: 23%;
     float: left;
-    //animation: colorChangeBlock1 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 
@@ -60,25 +60,19 @@ body {
 .secondRow div:first-child{
     width: 23%;
     float: left;
-    //animation: colorChangeBlock2 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .secondRow div:nth-child(2){
     width: 23%;
     float: left;
-    //animation: colorChangeBlock2 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .secondRow div:nth-child(3){
     width: 23%;
     float: left;
-    //animation: colorChangeBlock2 3s infinite;
-}
-
-.secondRow div:nth-child(4){
-    width: 23%;
-    float: left;
-    //animation: colorChangeBlock2 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 
@@ -87,51 +81,51 @@ body {
     width: 48%;
     float: left;
     height: (($maxHeight / 3.8) + ($mainMargin * 2));
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock1 3s infinite;
 }
 
 .thirdRow div:nth-child(2) {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .thirdRow div:nth-child(3) {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .thirdRow div:nth-child(4) {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .thirdRow div:nth-child(5) {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 //FourthRow.
 .fourthRow div:first-child {
     width: 73%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock3 3s infinite;
 }
 
 .fourthRow div:nth-child(2) {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 //FifthRow.
 .fifthRow div:first-child {
     width: 23%;
     float: left;
-    //animation: colorChangeBlock4 3s infinite;
+    animation: colorChangeBlock2 3s infinite;
 }
 
 .blockContent {

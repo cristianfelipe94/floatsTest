@@ -8,8 +8,8 @@
     }
     50%{
         width: $minWidth;
-        height: $minHeight;
-        border-radius: 50px;
+        height: (($minHeight * 1.4 ) - ($mainMargin * 1.5));
+        border-radius: 30px;
         background-color:#00a0b0; 
 
     }
@@ -30,7 +30,26 @@
     }
     50%{
         width: 46%;
-        height: (($maxHeight / 5) - ($mainMargin * 4));
+        height: (($maxHeight / 6.4) + ($mainMargin * 2));
+        background-color:#4f372d;
+        border-radius: 50px;
+    }
+    100%{
+        width: 48%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+}
+
+@keyframes colorChangeBlock15 {
+    0%{
+        width: 48%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+    50%{
+        width: 46%;
+        height: (($maxHeight / 7) - ($mainMargin * 4));
         background-color:#4f372d;
         border-radius: 50px;
     }
@@ -49,7 +68,7 @@
     }
     50%{
         width: 21%;
-        height: (($maxHeight / 5) - ($mainMargin * 4));
+        height: (($maxHeight / 7) - ($mainMargin * 4));
         background-color: #eb6841;
         border-radius: 50px;
     }
@@ -68,7 +87,7 @@
     }
     50%{
         width: 71%;
-        height: (($maxHeight / 5) - ($mainMargin * 4));
+        height: (($maxHeight / 7) - ($mainMargin * 4));
         background-color: #eb6841;
         border-radius: 50px;
     }
@@ -87,7 +106,7 @@
     }
     50%{
         width: 96%;
-        height: (($maxHeight / 5) - ($mainMargin * 4));
+        height: (($maxHeight / 7) - ($mainMargin * 4));
         background-color:#4f372d;
         border-radius: 50px;
     }

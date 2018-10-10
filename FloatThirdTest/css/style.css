@@ -16,6 +16,7 @@ body {
   border: 1px solid black;
   background-color: #a2798f;
   border-radius: 0px;
+  animation: colorChangeMainBlock 3s infinite;
   margin: auto;
   right: 0;
   top: 0;
@@ -32,64 +33,74 @@ body {
 
 .firstRow div:first-child {
   width: 48%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock15 3s infinite; }
 
 .firstRow div:nth-child(2) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .firstRow div:nth-child(3) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .secondRow div:first-child {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .secondRow div:nth-child(2) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .secondRow div:nth-child(3) {
   width: 23%;
-  float: left; }
-
-.secondRow div:nth-child(4) {
-  width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .thirdRow div:first-child {
   width: 48%;
   float: left;
-  height: 177.89474px; }
+  height: 177.89474px;
+  animation: colorChangeBlock1 3s infinite; }
 
 .thirdRow div:nth-child(2) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .thirdRow div:nth-child(3) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .thirdRow div:nth-child(4) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .thirdRow div:nth-child(5) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .fourthRow div:first-child {
   width: 73%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock3 3s infinite; }
 
 .fourthRow div:nth-child(2) {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .fifthRow div:first-child {
   width: 23%;
-  float: left; }
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
 
 .blockContent {
   position: relative;
@@ -112,8 +123,8 @@ body {
     background-color: #a2798f; }
   50% {
     width: 600px;
-    height: 300px;
-    border-radius: 50px;
+    height: 405px;
+    border-radius: 30px;
     background-color: #00a0b0; }
   100% {
     width: 1200px;
@@ -127,7 +138,21 @@ body {
     border-radius: 0px; }
   50% {
     width: 46%;
-    height: 80px;
+    height: 113.75px;
+    background-color: #4f372d;
+    border-radius: 50px; }
+  100% {
+    width: 48%;
+    background-color: #00a0b0;
+    border-radius: 0px; } }
+@keyframes colorChangeBlock15 {
+  0% {
+    width: 48%;
+    background-color: #00a0b0;
+    border-radius: 0px; }
+  50% {
+    width: 46%;
+    height: 45.71429px;
     background-color: #4f372d;
     border-radius: 50px; }
   100% {
@@ -141,7 +166,7 @@ body {
     border-radius: 0px; }
   50% {
     width: 21%;
-    height: 80px;
+    height: 45.71429px;
     background-color: #eb6841;
     border-radius: 50px; }
   100% {
@@ -155,7 +180,7 @@ body {
     border-radius: 0px; }
   50% {
     width: 71%;
-    height: 80px;
+    height: 45.71429px;
     background-color: #eb6841;
     border-radius: 50px; }
   100% {
@@ -169,7 +194,7 @@ body {
     border-radius: 0px; }
   50% {
     width: 96%;
-    height: 80px;
+    height: 45.71429px;
     background-color: #4f372d;
     border-radius: 50px; }
   100% {
