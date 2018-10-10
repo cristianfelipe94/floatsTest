@@ -1,0 +1,147 @@
+.clearFix::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+body {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black; }
+
+#main-container {
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: #a2798f;
+  border-radius: 0px;
+  animation: colorChangeMainBlock 3s infinite;
+  margin: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0; }
+
+.block {
+  height: 160px;
+  margin: 10px;
+  position: relative;
+  float: left;
+  border: 1px solid black;
+  border-radius: 0px; }
+
+.firstRow div {
+  width: 48%;
+  float: left;
+  animation: colorChangeBlock1 3s infinite; }
+
+.secondRow div:first-child {
+  width: 23%;
+  float: left;
+  animation: colorChangeBlock2 3s infinite; }
+
+.secondRow div:nth-child(2) {
+  width: 73%;
+  float: left;
+  animation: colorChangeBlock3 3s infinite; }
+
+.thirdRow div:first-child {
+  width: 98%;
+  float: left;
+  animation: colorChangeBlock4 3s infinite; }
+
+.blockContent {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-size: 2em;
+  animation: resizeFont 3s infinite; }
+
+.colorBlock-1 {
+  background-color: #edc951; }
+
+.colorBlock-2 {
+  background-color: #00a0b0; }
+
+@keyframes colorChangeMainBlock {
+  0% {
+    width: 1200px;
+    height: 600px;
+    border-radius: 0px;
+    background-color: #a2798f; }
+  50% {
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: #00a0b0; }
+  100% {
+    width: 1200px;
+    height: 600px;
+    border-radius: 0px;
+    background-color: #a2798f; } }
+@keyframes colorChangeBlock1 {
+  0% {
+    width: 48%;
+    background-color: #00a0b0;
+    border-radius: 0px; }
+  50% {
+    width: 46%;
+    height: 80px;
+    background-color: #4f372d;
+    border-radius: 50px; }
+  100% {
+    width: 48%;
+    background-color: #00a0b0;
+    border-radius: 0px; } }
+@keyframes colorChangeBlock2 {
+  0% {
+    width: 23%;
+    background-color: #edc951;
+    border-radius: 0px; }
+  50% {
+    width: 21%;
+    height: 80px;
+    background-color: #eb6841;
+    border-radius: 50px; }
+  100% {
+    width: 23%;
+    background-color: #edc951;
+    border-radius: 0px; } }
+@keyframes colorChangeBlock3 {
+  0% {
+    width: 73%;
+    background-color: #edc951;
+    border-radius: 0px; }
+  50% {
+    width: 71%;
+    height: 80px;
+    background-color: #eb6841;
+    border-radius: 50px; }
+  100% {
+    width: 73%;
+    background-color: #edc951;
+    border-radius: 0px; } }
+@keyframes colorChangeBlock4 {
+  0% {
+    width: 98%;
+    background-color: #00a0b0;
+    border-radius: 0px; }
+  50% {
+    width: 96%;
+    height: 80px;
+    background-color: #4f372d;
+    border-radius: 50px; }
+  100% {
+    width: 98%;
+    background-color: #00a0b0;
+    border-radius: 0px; } }
+@keyframes resizeFont {
+  0% {
+    font-size: 2em; }
+  50% {
+    font-size: 1em; }
+  100% {
+    font-size: 2em; } }
+
+/*# sourceMappingURL=style.css.map */

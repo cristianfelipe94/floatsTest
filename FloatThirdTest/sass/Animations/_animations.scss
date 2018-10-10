@@ -1,0 +1,111 @@
+
+@keyframes colorChangeMainBlock {
+    0%{
+        width: $maxWidth;
+        height: $maxHeight;
+        border-radius: 0px;
+        background-color:#a2798f; 
+    }
+    50%{
+        width: $minWidth;
+        height: $minHeight;
+        border-radius: 50px;
+        background-color:#00a0b0; 
+
+    }
+    100%{
+        width: $maxWidth;
+        height: $maxHeight;
+        border-radius: 0px;
+        background-color:#a2798f; 
+    }
+}
+
+
+@keyframes colorChangeBlock1 {
+    0%{
+        width: 48%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+    50%{
+        width: 46%;
+        height: (($maxHeight / 5) - ($mainMargin * 4));
+        background-color:#4f372d;
+        border-radius: 50px;
+    }
+    100%{
+        width: 48%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+}
+
+@keyframes colorChangeBlock2 {
+    0%{
+        width: 23%;
+        background-color: #edc951;
+        border-radius: 0px;
+    }
+    50%{
+        width: 21%;
+        height: (($maxHeight / 5) - ($mainMargin * 4));
+        background-color: #eb6841;
+        border-radius: 50px;
+    }
+    100%{
+        width: 23%;
+        background-color: #edc951;
+        border-radius: 0px;
+    }
+}
+
+@keyframes colorChangeBlock3 {
+    0%{
+        width: 73%;
+        background-color: #edc951;
+        border-radius: 0px;
+    }
+    50%{
+        width: 71%;
+        height: (($maxHeight / 5) - ($mainMargin * 4));
+        background-color: #eb6841;
+        border-radius: 50px;
+    }
+    100%{
+        width: 73%;
+        background-color: #edc951;
+        border-radius: 0px;
+    }
+}
+
+@keyframes colorChangeBlock4 {
+    0%{
+        width: 98%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+    50%{
+        width: 96%;
+        height: (($maxHeight / 5) - ($mainMargin * 4));
+        background-color:#4f372d;
+        border-radius: 50px;
+    }
+    100%{
+        width: 98%;
+        background-color:#00a0b0;
+        border-radius: 0px;
+    }
+}
+
+@keyframes resizeFont {
+    0%{
+        font-size: $fontSize;
+    }
+    50%{
+        font-size: ($fontSize - 1);
+    }
+    100%{
+        font-size: $fontSize;
+    }
+}
