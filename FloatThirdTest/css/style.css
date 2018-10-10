@@ -16,7 +16,6 @@ body {
   border: 1px solid black;
   background-color: #a2798f;
   border-radius: 0px;
-  animation: colorChangeMainBlock 3s infinite;
   margin: auto;
   right: 0;
   top: 0;
@@ -24,32 +23,73 @@ body {
   left: 0; }
 
 .block {
-  height: 160px;
+  height: 77.64706px;
   margin: 10px;
   position: relative;
   float: left;
   border: 1px solid black;
   border-radius: 0px; }
 
-.firstRow div {
+.firstRow div:first-child {
   width: 48%;
-  float: left;
-  animation: colorChangeBlock1 3s infinite; }
+  float: left; }
+
+.firstRow div:nth-child(2) {
+  width: 23%;
+  float: left; }
+
+.firstRow div:nth-child(3) {
+  width: 23%;
+  float: left; }
 
 .secondRow div:first-child {
   width: 23%;
-  float: left;
-  animation: colorChangeBlock2 3s infinite; }
+  float: left; }
 
 .secondRow div:nth-child(2) {
-  width: 73%;
-  float: left;
-  animation: colorChangeBlock3 3s infinite; }
+  width: 23%;
+  float: left; }
+
+.secondRow div:nth-child(3) {
+  width: 23%;
+  float: left; }
+
+.secondRow div:nth-child(4) {
+  width: 23%;
+  float: left; }
 
 .thirdRow div:first-child {
-  width: 98%;
+  width: 48%;
   float: left;
-  animation: colorChangeBlock4 3s infinite; }
+  height: 177.89474px; }
+
+.thirdRow div:nth-child(2) {
+  width: 23%;
+  float: left; }
+
+.thirdRow div:nth-child(3) {
+  width: 23%;
+  float: left; }
+
+.thirdRow div:nth-child(4) {
+  width: 23%;
+  float: left; }
+
+.thirdRow div:nth-child(5) {
+  width: 23%;
+  float: left; }
+
+.fourthRow div:first-child {
+  width: 73%;
+  float: left; }
+
+.fourthRow div:nth-child(2) {
+  width: 23%;
+  float: left; }
+
+.fifthRow div:first-child {
+  width: 23%;
+  float: left; }
 
 .blockContent {
   position: relative;
